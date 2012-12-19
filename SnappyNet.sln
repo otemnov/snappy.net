@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnappyNet", "SnappyNet\SnappyNet.csproj", "{44322AF0-9D59-4E32-AD35-02BEE5F3629C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnappyNet.Tests", "SnappyNet.Tests\SnappyNet.Tests.csproj", "{EDF5CD35-7996-43B7-BF65-C2979833FFE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{44322AF0-9D59-4E32-AD35-02BEE5F3629C}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{EDF5CD35-7996-43B7-BF65-C2979833FFE3}.Release|x86.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

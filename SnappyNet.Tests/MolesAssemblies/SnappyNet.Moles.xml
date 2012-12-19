@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SnappyNet.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:SnappyNet.Moles.MBuffer">
+            <summary>Mole type of <see cref="T:SnappyNet.Buffer"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MBuffer.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MBuffer.#ctor(SnappyNet.Buffer)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MBuffer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MBuffer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.Constructor">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.ConstructorInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.#ctor(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.EnsureCapacityInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.EnsureCapacity(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.GetData">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.GetData"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.GetLength">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.GetLength"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.SetLengthInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.SetLength(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.ToByteArray">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.ToByteArray"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MBuffer.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.AllInstances.EnsureCapacityInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.EnsureCapacity(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.AllInstances.GetData">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.GetData"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.AllInstances.GetLength">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.GetLength"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.AllInstances.SetLengthInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.SetLength(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MBuffer.AllInstances.ToByteArray">
+            <summary>Sets the mole of <see cref="M:SnappyNet.Buffer.ToByteArray"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MIntListHashMap">
+            <summary>Mole type of <see cref="T:SnappyNet.IntListHashMap"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MIntListHashMap.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MIntListHashMap.#ctor(SnappyNet.IntListHashMap)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MIntListHashMap.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MIntListHashMap.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MIntListHashMap.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MIntListHashMap.ConstructorInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.IntListHashMap.#ctor(System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MIntListHashMap.PutInt32Int32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.IntListHashMap.Put(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MIntListHashMap.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MIntListHashMap.AllInstances.PutInt32Int32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.IntListHashMap.Put(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyCompressor">
+            <summary>Mole type of <see cref="T:SnappyNet.SnappyCompressor"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.#ctor(SnappyNet.SnappyCompressor)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressBufferBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(SnappyNet.Buffer,SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressByteArray">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressByteArrayBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(System.Byte[],SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressByteArrayInt32Int32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(System.Byte[],System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.CompressByteArrayInt32Int32Buffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Compress(System.Byte[],System.Int32,System.Int32,SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.Constructor">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.SearchByteArrayInt32Int32IntListHashMap">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Search(System.Byte[],System.Int32,System.Int32,SnappyNet.IntListHashMap)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.ToIntByteArrayInt32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.ToInt(System.Byte[],System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyCompressor.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyCompressor.MHit">
+            <summary>Mole type of <see cref="T:SnappyNet.SnappyCompressor.Hit"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.MHit.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.MHit.#ctor(SnappyNet.SnappyCompressor.Hit)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.MHit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyCompressor.MHit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.MHit.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.MHit.Constructor">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Hit.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyCompressor.MHit.ConstructorInt32Int32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyCompressor.Hit.#ctor(System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyCompressor.MHit.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyDecompressor">
+            <summary>Mole type of <see cref="T:SnappyNet.SnappyDecompressor"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyDecompressor.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyDecompressor.#ctor(SnappyNet.SnappyDecompressor)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyDecompressor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.MSnappyDecompressor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.Constructor">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressBufferBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(SnappyNet.Buffer,SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressByteArray">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(System.Byte[])"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressByteArrayBuffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(System.Byte[],SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressByteArrayInt32Int32">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(System.Byte[],System.Int32,System.Int32)"/>
+            </summary>
+        </member>
+        <member name="P:SnappyNet.Moles.MSnappyDecompressor.DecompressByteArrayInt32Int32Buffer">
+            <summary>Sets the mole of <see cref="M:SnappyNet.SnappyDecompressor.Decompress(System.Byte[],System.Int32,System.Int32,SnappyNet.Buffer)"/>
+            </summary>
+        </member>
+        <member name="T:SnappyNet.Moles.MSnappyDecompressor.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="T:SnappyNet.Moles.SBuffer">
+            <summary>Stub type of <see cref="T:SnappyNet.Buffer"/>
+            .</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.SBuffer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.SBuffer.#ctor(System.Int32)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:SnappyNet.Moles.SBuffer.InitializeStub">
+            <summary>Initializes a new instance of type SBuffer</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.SBuffer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:SnappyNet.Moles.SBuffer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>
