@@ -199,7 +199,7 @@ namespace SnappyNet
 			{
 				throw new ArgumentOutOfRangeException("start");
 			}
-			if (end >= array.Length)
+			if (end > array.Length)
 			{
 				throw new ArgumentOutOfRangeException("end");
 			}
